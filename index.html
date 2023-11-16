@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/favicon-32x32.png">
+    <title>News Letter Sign Up Form</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cuprum:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body id="index">
+    <main>
+        <div id="main-div">
+            <div id="stay_updated">
+                <h1>Stay Updated!</h1>
+                <p>Join 60,000+ product managers receiving monthly updates on:</p>
+                <ul>
+                    <li>Product discovery and building what matters</li>
+                    <li>Measuring to ensure updates are a success</li>
+                    <li>And much more!</li>
+                </ul>
+                <fieldset>
+                    <div id="legend_div">
+                        <legend id="valid">Email address</legend>
+                        <legend id="invalid">Valid email required</legend>
+                    </div>
+                    <input type="email" placeholder="email@company.com" id="email" required>
+                    <button>Subscribe to monthly newsletter</button>
+                </fieldset>
+            </div>
+            <div id="illustration-div">
+                <picture>
+                    <source media="(max-width: 699px)" srcset="images/illustration-sign-up-mobile.svg">
+                    <img src="images/illustration-sign-up-desktop.svg" alt="Illustration">
+                </picture>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Challenge from <a href="https://www.frontendmentor.io/home">Frontend Mentor. </a><span id="coder"> Coded by <a href="https://github.com/foguibe">Fortune Oguibe</a></span></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
